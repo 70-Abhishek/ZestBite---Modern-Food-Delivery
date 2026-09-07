@@ -1,0 +1,6 @@
+{
+  "name": "ZestBite - Modern Food Delivery",
+  "description": "A complete, modern food delivery platform inspired by clean design simplicity, featuring restaurant listings, dynamic food menus, interactive cart & checkout, live order tracking, partner dashboard, and loyalty rewards.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
