@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ZestBite - Modern Food Delivery
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/a20ac8b2-f3e8-4d54-b0f8-02d4be7d3cd4
+A React and Vite food delivery experience with restaurant browsing, menus, cart and checkout flows, live order tracking, loyalty rewards, and a partner dashboard.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+Prerequisites: Node.js
 
+```bash
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Open `http://localhost:3000` in your browser.
+
+## Build
+
+```bash
+npm run lint
+npm run build
+npm run preview
+```
